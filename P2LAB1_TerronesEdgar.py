@@ -1,6 +1,6 @@
 # Edgar C Terrones
-# 09/23/25
-# P1HW2
+# 10/2/25
+# P2LAB1
 # Circle Calculations
 
 import math 
