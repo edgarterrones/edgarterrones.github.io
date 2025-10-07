@@ -3,6 +3,8 @@
 # P2HW2
 # List
 
+# The user will enter the grades for each module
+
 module_one = float(input("Enter grade for Module 1: "))
 
 module_two = float(input("Enter grade for Module 2: "))
@@ -15,12 +17,14 @@ module_five = float(input("Enter grade for Module 5: "))
 
 module_six = float(input("Enter grade for Module 6: "))
 
+# This will create a list named test_grades and add each module into the list
+
 test_grades = [module_one, module_two, module_three, module_four, module_five, module_six]
 
 print("-----------Results-----------")
-print(f"{"Lowest Grade:":<20}", min(test_grades))
-print(f"{"Highest Grade:":<20}", max(test_grades))
-print(f"{"Sum of Grades:":<20}", sum(test_grades))
-print(f"{"Average:":<20}", f"{sum(test_grades)/6:.2f}")
+print(f"{"Lowest Grade:":<20}", min(test_grades))  #Gets you the lowest score in the list
+print(f"{"Highest Grade:":<20}", max(test_grades)) #Gets you the highest score in the list
+print(f"{"Sum of Grades:":<20}", sum(test_grades)) #Adds all the scores in the list
+print(f"{"Average:":<20}", f"{sum(test_grades)/6:.2f}") #Gets the average score of the grades in the list
 print("-----------------------------")
 
