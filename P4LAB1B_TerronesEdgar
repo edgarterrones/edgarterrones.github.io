@@ -1,0 +1,40 @@
+# Edgar C Terrones
+# 10/22/25
+# P4LAB1B
+# TURTLE
+
+import turtle
+t = turtle.Turtle()
+
+t.left(90) #Rotates the turtle 90 degrees to the left
+t.forward(100) #draws the main vertical line
+
+#Drawing the top line
+t.right(90) #Rotates the turtle 90 degrees 
+t.forward(50) #Draws the top line
+
+#Drawing the middle line
+t.backward(50)#Moves the turtle back
+t.right(90)
+t.forward(50)
+t.left(90)
+t.forward(40)#Draws line
+
+t.backward(50)#Moves the turtle back 
+t.right(90)
+t.forward(50) #draws bottom line
+t.left(90)
+t.forward(50)
+
+t.penup() #picks pen up so it doesnt write
+t.forward(100)
+t.pendown()
+t.left(90)
+t.forward(100)
+t.right(90)
+t.forward(50)
+t.left(180)
+t.forward(100)
+
+
+turtle.done()
